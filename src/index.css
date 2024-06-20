@@ -1,0 +1,38 @@
+*{
+  margin: 0%;
+  padding:0%;
+  box-sizing: border-box;
+  /* background-color: aquamarine; */
+}
+.container{
+  position: relative;
+}
+.img_carausel{
+  height: 500px;
+  width: 100%;
+  
+}
+.Next_btn{
+  background-color: yellow;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30%;
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  cursor: pointer;
+}
+.prev_btn{
+  background-color: yellow;
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30%;
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+}
